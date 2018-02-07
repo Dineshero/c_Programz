@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-int n;
+char n;
 printf("Enter \n");
-scanf("%d,&n);
+scanf("%s",&n);
 if(n>='a' && n<='z' || n>='A' && n<='Z')
 {
-printf("Number");
+printf("Alphabets");
 }
 else
 {
-printf("Alphabet");
+printf("Number");
 }
 }
