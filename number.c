@@ -3,7 +3,7 @@
 int main()
 {
 char s[100],i=0;
-printf("Enter the string \n");
+printf("Enter the string ");
 scanf("%s",s);
 if(s[i] >= '0' && s[i] <='9')
 	printf("yes \n");
