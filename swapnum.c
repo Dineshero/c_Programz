@@ -2,7 +2,7 @@
 int main()
 {
 int a,b,temp=0;
-printf("Enter the two values to swap \n");
+printf("Enter the two values to swap ");
 scanf("%d %d",&a,&b);
 temp=a;
 a=b;
