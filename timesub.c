@@ -9,5 +9,6 @@ printf("\n Enter the time2(HH:MM):\n");
 scanf("%d %d",&hr2,&min2);
 hr=hr1-hr2;
 min=min1-min2;
+  printf("\n");
 printf("%d  %d",hr,min);
 }
