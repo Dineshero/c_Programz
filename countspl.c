@@ -7,8 +7,8 @@ printf("Enter the string\n");
 gets(str);
 for(word=0;str[word]!='\0';word++)
 {
-if(str[word]==' ' || str[word]=='.' || str[word]== ',')
+if(str[word]==' ' || str[word]=='.' || str[word]== ',' || str[word]=='@' || str[word]=='$' || str[word]=='_')
 n++;
 }
-printf(" %d\n",n);
+printf("The number of character in the sentences are %d\n",n);
 }
