@@ -2,19 +2,19 @@
 #include<string.h>
 int main()
 {
-    char str[50];
+    char str[75];
+    int mid,len;
     scanf("%s",str);
-    int mid;
-    int l=strlen(str);
-    if(l%2!=0)
+    len=strlen(str);
+    if(len%2!=0)
     {
-        mid=l/2;
+        mid=len/2;
         str[mid]='*';
         printf("%s",str);
     }
     else
     {
-        mid=l/2;
+        mid=len/2;
         str[mid]='*';
         str[mid-1]='*';
         printf("%s",str);
