@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a,b;
+	int a1,b1,a,b,a2,b2;
 	scanf("%d \t %d",&a,&b);
 	scanf("\n %d \t %d",&a1,&b1);
 	scanf("\n %d \t %d",&a2,&b2);
