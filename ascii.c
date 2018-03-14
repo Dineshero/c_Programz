@@ -2,10 +2,10 @@
 int main() 
 {	
    
-   char c;
-   int d;
-   scanf("%c",&c);
-   d=(int)c;
-   printf("%d",d);
+   char ch;
+   int num;
+   scanf("%c",&ch);
+   num=(int)ch;
+   printf("%d",num);
    
 }
