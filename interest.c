@@ -5,5 +5,5 @@ int main()
 	scanf("%d%d%d",&p,&t,&r);
 	res=p*(1+(r*t));
   res=res/100;
-	printf("%d",res);
+	printf("%d",(1-res));
 }
